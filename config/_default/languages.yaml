@@ -8,6 +8,8 @@ en:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    diplomas: /diplomas/:slug/
+    programs: /programs/:slug/
   taxonomies:
     administrator: administrators
     author: authors
