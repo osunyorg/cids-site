@@ -29,4 +29,8 @@ items:
   target: "/campus/"
   kind: page
   children: []
+- title: Donors
+  target: "/donors/"
+  kind: page
+  children: []
 
