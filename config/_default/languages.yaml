@@ -13,6 +13,8 @@ en:
     events_categories: /agenda/:slug/
     diplomas: /diplomas/:slug/
     programs: /programs/:slug/
+    persons: /team/:slug/
+    persons_categories: /team/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
