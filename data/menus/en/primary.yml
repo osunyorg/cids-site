@@ -1,8 +1,4 @@
 ---
 title: Main menu
-items:
-- title: Donors
-  target: "/donors/"
-  kind: page
-  children: []
+items: []
 
