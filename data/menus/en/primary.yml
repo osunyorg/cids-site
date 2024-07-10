@@ -4,5 +4,9 @@ items:
 - title: Education
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Executive course training
+    target: "/education/executive-course-training/"
+    kind: page
+    children: []
 
