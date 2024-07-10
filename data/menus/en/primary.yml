@@ -1,4 +1,8 @@
 ---
 title: Main menu
-items: []
+items:
+- title: Education
+  target: ''
+  kind: blank
+  children: []
 
