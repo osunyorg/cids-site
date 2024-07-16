@@ -45,6 +45,10 @@ items:
     target: "/about/contact-us/"
     kind: page
     children: []
+  - title: Partner with us
+    target: "/about/work-with-uspartner-with-us/"
+    kind: page
+    children: []
 - title: News and Events
   target: "/news/"
   kind: page
