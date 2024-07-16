@@ -9,4 +9,8 @@ items:
     target: "/education/executive-course-training/"
     kind: page
     children: []
+  - title: Education overview
+    target: "/education/education-overview/"
+    kind: page
+    children: []
 
