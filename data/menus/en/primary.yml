@@ -13,6 +13,10 @@ items:
     target: "/education/executive-course-training/"
     kind: page
     children: []
+  - title: LAIAC - Latin American International Arbitration Course
+    target: "/education/laiac-latin-american-international-arbitration-course/"
+    kind: page
+    children: []
 - title: Research
   target: "/research/"
   kind: page
