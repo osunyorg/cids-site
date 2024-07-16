@@ -29,6 +29,10 @@ items:
     target: "/research/research-overview/"
     kind: page
     children: []
+  - title: Projects
+    target: "/research/projects/"
+    kind: page
+    children: []
 - title: News and Events
   target: "/news/"
   kind: page
