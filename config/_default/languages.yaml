@@ -15,8 +15,6 @@ en:
     events_categories: /events/:slug/
     projects: /research/projects/:year-:slug/
     projects_categories: /research/projects/:slug/
-    diplomas: /diplomas/:slug/
-    programs: /programs/:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
   taxonomies:
