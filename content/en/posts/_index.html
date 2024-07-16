@@ -1,22 +1,24 @@
 ---
 title: >-
-  Posts
+  News
 breadcrumb_title: >-
-  Posts
-url: "/posts/"
-slug: "posts"
+  News
+url: "/news/"
+slug: "news"
+aliases:
+  - /posts/
 hugo:
-  permalink: "/posts/"
+  permalink: "/news/"
   file: "content/en/posts/_index.html"
-  path: "/posts/"
-  slug: "posts"
+  path: "/news/"
+  slug: "news"
 
 breadcrumbs:
   - title: >-
       Home
     path: "/"
   - title: >-
-      Posts
+      News
 
 full_width: true
 design:
@@ -53,5 +55,38 @@ contents_reading_time:
   text: >-
     less than a minute
 contents:
+  - kind: block
+    template: agenda
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      mode: all
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+      description: >-
+        
+
+      no_event_message: >-
+        
+
+      show_summary: false
+      show_category: false
+      show_status: false
+      title_link: "/agenda/"
+      events:
+        - path: "/agenda/2024-07-17-seminar/"
+          file: "events/2024-07-17-seminar.html"
+
+
 
 ---
