@@ -10,7 +10,7 @@ items:
     kind: page
     children: []
   - title: MIDS
-    target: https://mids.osuny.org/
+    target: https://mids.cids.osuny.site
     kind: url
     children: []
   - title: Executive course training
