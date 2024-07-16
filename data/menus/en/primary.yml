@@ -17,6 +17,10 @@ items:
     target: "/education/laiac-latin-american-international-arbitration-course/"
     kind: page
     children: []
+  - title: MIDS
+    target: https://mids.osuny.org/
+    kind: url
+    children: []
 - title: Research
   target: "/research/"
   kind: page
