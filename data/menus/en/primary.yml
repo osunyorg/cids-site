@@ -9,6 +9,10 @@ items:
     target: "/education/education-overview/"
     kind: page
     children: []
+  - title: MIDS
+    target: https://mids.osuny.org/
+    kind: url
+    children: []
   - title: Executive course training
     target: "/education/executive-course-training/"
     kind: page
@@ -16,10 +20,6 @@ items:
   - title: LAIAC - Latin American International Arbitration Course
     target: "/education/laiac-latin-american-international-arbitration-course/"
     kind: page
-    children: []
-  - title: MIDS
-    target: https://mids.osuny.org/
-    kind: url
     children: []
 - title: Research
   target: "/research/"
