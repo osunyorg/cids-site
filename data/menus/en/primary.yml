@@ -5,12 +5,12 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Executive course training
-    target: "/education/executive-course-training/"
-    kind: page
-    children: []
   - title: Education overview
     target: "/education/education-overview/"
+    kind: page
+    children: []
+  - title: Executive course training
+    target: "/education/executive-course-training/"
     kind: page
     children: []
 
