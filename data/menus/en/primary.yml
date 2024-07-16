@@ -13,4 +13,8 @@ items:
     target: "/education/executive-course-training/"
     kind: page
     children: []
+- title: Research
+  target: "/research/"
+  kind: page
+  children: []
 
