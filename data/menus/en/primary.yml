@@ -49,7 +49,7 @@ items:
     target: "/about/work-with-uspartner-with-us/"
     kind: page
     children: []
-- title: News and Events
+- title: News and events
   target: "/news/"
   kind: page
   children: []
