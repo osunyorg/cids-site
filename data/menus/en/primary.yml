@@ -33,4 +33,8 @@ items:
   target: "/news/"
   kind: page
   children: []
+- title: About
+  target: "/about/"
+  kind: page
+  children: []
 
