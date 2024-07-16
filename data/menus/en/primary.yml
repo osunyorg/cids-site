@@ -29,4 +29,8 @@ items:
     target: "/research/research-overview/"
     kind: page
     children: []
+- title: News and Events
+  target: "/news/"
+  kind: page
+  children: []
 
