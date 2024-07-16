@@ -36,7 +36,11 @@ items:
 - title: About
   target: "/about/"
   kind: page
-  children: []
+  children:
+  - title: Contact us
+    target: "/about/contact-us/"
+    kind: page
+    children: []
 - title: News and Events
   target: "/news/"
   kind: page
