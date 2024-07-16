@@ -33,12 +33,12 @@ items:
     target: "/research/projects/"
     kind: page
     children: []
-- title: News and Events
-  target: "/news/"
-  kind: page
-  children: []
 - title: About
   target: "/about/"
+  kind: page
+  children: []
+- title: News and Events
+  target: "/news/"
   kind: page
   children: []
 
