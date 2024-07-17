@@ -156,6 +156,7 @@ contents:
       
     ranks:
       self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: false
@@ -165,8 +166,20 @@ contents:
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: large
       pages:
+        - path: "/education/"
+          slug: "education"
+          file: "pages/education/_index.html"
+          external: false
+        - path: "/research/"
+          slug: "research"
+          file: "pages/research/_index.html"
+          external: false
+        - path: "/events/"
+          slug: "events"
+          file: "events/_index.html"
+          external: false
 
 
 
