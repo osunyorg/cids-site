@@ -53,6 +53,10 @@ items:
     target: "/about/people/"
     kind: page
     children: []
+  - title: News
+    target: "/news/"
+    kind: page
+    children: []
 - title: News and events
   target: "/news/"
   kind: page
