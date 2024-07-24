@@ -33,6 +33,10 @@ items:
     target: "/research/projects/"
     kind: page
     children: []
+- title: Events
+  target: "/events/"
+  kind: page
+  children: []
 - title: About
   target: "/about/"
   kind: page
@@ -57,8 +61,4 @@ items:
     target: "/news/"
     kind: page
     children: []
-- title: Events
-  target: "/events/"
-  kind: page
-  children: []
 
