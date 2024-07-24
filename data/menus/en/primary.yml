@@ -29,7 +29,7 @@ items:
     target: "/research/research-overview/"
     kind: page
     children: []
-  - title: Projects
+  - title: Research Projects
     target: "/research/projects/"
     kind: page
     children: []
