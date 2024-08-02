@@ -1,4 +1,8 @@
 ---
 title: Website toggle
-items: []
+items:
+- title: MIDS
+  target: https://mids.cids.osuny.site/
+  kind: url
+  children: []
 
