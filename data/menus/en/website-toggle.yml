@@ -1,12 +1,12 @@
 ---
 title: Website toggle
 items:
-- title: MIDS
-  target: https://mids.cids.osuny.site/
-  kind: url
-  children: []
 - title: CIDS
   target: "/"
   kind: page
+  children: []
+- title: MIDS
+  target: https://mids.cids.osuny.site/
+  kind: url
   children: []
 
