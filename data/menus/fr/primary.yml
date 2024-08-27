@@ -1,0 +1,28 @@
+---
+title: Menu principal
+items:
+- title: Diplômes
+  target: "/fr/diplomes/"
+  kind: page
+  children: []
+- title: Formations
+  target: "/fr/formations/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/fr/actualites/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/fr/agenda/"
+  kind: page
+  children: []
+- title: Projets
+  target: "/fr/projets/"
+  kind: page
+  children: []
+- title: Équipe
+  target: "/fr/equipe/"
+  kind: page
+  children: []
+
