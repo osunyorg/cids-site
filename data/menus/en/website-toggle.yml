@@ -5,4 +5,8 @@ items:
   target: https://mids.cids.osuny.site/
   kind: url
   children: []
+- title: CIDS
+  target: "/"
+  kind: page
+  children: []
 
