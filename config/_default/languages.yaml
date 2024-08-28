@@ -19,6 +19,7 @@ en:
     programs: /programs/:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
+    authors: /team/:slug/news/
   taxonomies:
     administrator: administrators
     author: authors
@@ -51,6 +52,7 @@ fr:
     programs: /formations/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
+    authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
