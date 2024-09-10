@@ -14,7 +14,7 @@ items:
     kind: url
     children: []
   - title: Executive course training
-    target: "/en/education/executive-course-training/"
+    target: "/en/education/executive-courses/"
     kind: page
     children: []
   - title: LAIAC - Latin American International Arbitration Course
