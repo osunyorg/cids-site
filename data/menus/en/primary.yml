@@ -58,7 +58,7 @@ items:
     kind: page
     children: []
   - title: News
-    target: "/en/news/"
+    target: "/en/about/news/"
     kind: page
     children: []
 
