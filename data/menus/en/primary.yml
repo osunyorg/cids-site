@@ -29,6 +29,10 @@ items:
     target: "/en/research/projects/"
     kind: page
     children: []
+  - title: Academic publications
+    target: "/en/research/academic-publications/"
+    kind: page
+    children: []
 - title: Events
   target: "/en/events/"
   kind: page
