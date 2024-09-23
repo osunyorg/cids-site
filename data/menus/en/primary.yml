@@ -5,10 +5,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Education overview
-    target: "/en/education/education-overview/"
-    kind: page
-    children: []
   - title: MIDS
     target: https://mids.cids.osuny.site
     kind: url
