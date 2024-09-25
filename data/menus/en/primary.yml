@@ -50,7 +50,7 @@ items:
     kind: page
     children: []
   - title: Partner with us
-    target: "/en/about/work-with-uspartner-with-us/"
+    target: "/en/about/partner-with-us/"
     kind: page
     children: []
   - title: People
