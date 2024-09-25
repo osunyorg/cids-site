@@ -84,6 +84,39 @@ contents:
 
 
 
+  - kind: block
+    template: pages
+    title: >-
+      Who we are
+    ranks:
+      self: 2
+      children: 3
+    data:
+      page: 
+        path: "/en/about/who-we-are/"
+        slug: "who-we-are"
+        file: "pages/about/who-we-are/_index.html"
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: list
+      pages:
+        - path: "/en/about/people/"
+          slug: "people"
+          file: "pages/about/people/_index.html"
+          external: false
+        - path: "/en/about/contact-us/"
+          slug: "contact-us"
+          file: "pages/about/contact-us/_index.html"
+          external: false
+        - path: "/en/about/work-with-uspartner-with-us/"
+          slug: "work-with-uspartner-with-us"
+          file: "pages/about/work-with-uspartner-with-us/_index.html"
+          external: false
+
+
   - kind: heading
     title: >-
       The CIDS pillars
@@ -139,39 +172,6 @@ contents:
         - path: "/en/events/"
           slug: "events"
           file: "events/_index.html"
-          external: false
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Who we are
-    ranks:
-      self: 3
-      children: 4
-    data:
-      page: 
-        path: "/en/about/who-we-are/"
-        slug: "who-we-are"
-        file: "pages/about/who-we-are/_index.html"
-      options:
-        image: true
-        main_summary: true
-        summary: true
-
-      layout: list
-      pages:
-        - path: "/en/about/people/"
-          slug: "people"
-          file: "pages/about/people/_index.html"
-          external: false
-        - path: "/en/about/contact-us/"
-          slug: "contact-us"
-          file: "pages/about/contact-us/_index.html"
-          external: false
-        - path: "/en/about/work-with-uspartner-with-us/"
-          slug: "work-with-uspartner-with-us"
-          file: "pages/about/work-with-uspartner-with-us/_index.html"
           external: false
 
 
