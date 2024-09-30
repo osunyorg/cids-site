@@ -1,6 +1,18 @@
 ---
 title: Menu principal
 items:
+- title: Agenda
+  target: "/fr/agenda/"
+  kind: page
+  children: []
+- title: Équipe
+  target: "/fr/equipe/"
+  kind: page
+  children: []
+- title: Organisations
+  target: "/fr/organisations/"
+  kind: page
+  children: []
 - title: Diplômes
   target: "/fr/diplomes/"
   kind: page
@@ -9,20 +21,8 @@ items:
   target: "/fr/formations/"
   kind: page
   children: []
-- title: Actualités
-  target: "/fr/actualites/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/fr/agenda/"
-  kind: page
-  children: []
-- title: Projets
-  target: "/fr/projets/"
-  kind: page
-  children: []
-- title: Équipe
-  target: "/fr/equipe/"
+- title: Campus
+  target: "/fr/campus/"
   kind: page
   children: []
 
