@@ -17,6 +17,10 @@ items:
     target: "/fr/research/projets/"
     kind: page
     children: []
+  - title: Academic publications
+    target: "/fr/research/academic-publications/"
+    kind: page
+    children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
