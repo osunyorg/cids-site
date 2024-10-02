@@ -29,6 +29,30 @@ items:
     target: "/fr/research/academic-publications/"
     kind: page
     children: []
+- title: About
+  target: "/fr/about/"
+  kind: page
+  children:
+  - title: Actualités
+    target: "/fr/about/actualites/"
+    kind: page
+    children: []
+  - title: Who we are
+    target: "/fr/about/who-we-are/"
+    kind: page
+    children: []
+  - title: Contact Us
+    target: "/fr/about/contact-us/"
+    kind: page
+    children: []
+  - title: Partner with us
+    target: "/fr/about/partner-with-us/"
+    kind: page
+    children: []
+  - title: People
+    target: "/fr/about/people/"
+    kind: page
+    children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
