@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Education
+  target: "/fr/education/"
+  kind: page
+  children: []
 - title: Research
   target: "/fr/research/"
   kind: page
