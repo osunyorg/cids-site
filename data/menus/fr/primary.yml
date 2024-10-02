@@ -17,6 +17,10 @@ items:
   target: "/fr/research/"
   kind: page
   children:
+  - title: Research overview
+    target: "/fr/research/research-overview/"
+    kind: page
+    children: []
   - title: Projets
     target: "/fr/research/projets/"
     kind: page
