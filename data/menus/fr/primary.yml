@@ -1,6 +1,14 @@
 ---
 title: Menu principal
 items:
+- title: Research
+  target: "/fr/research/"
+  kind: page
+  children:
+  - title: Projets
+    target: "/fr/research/projets/"
+    kind: page
+    children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
