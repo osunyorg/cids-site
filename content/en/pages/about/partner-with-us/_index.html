@@ -67,9 +67,10 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Pages - Grid
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
       options:
         image: true
@@ -78,6 +79,18 @@ contents:
 
       layout: grid
       pages:
+        - path: "/en/education/"
+          slug: "education"
+          file: "pages/education/_index.html"
+          external: false
+        - path: "/en/research/"
+          slug: "research"
+          file: "pages/research/_index.html"
+          external: false
+        - path: "/en/events/"
+          slug: "events"
+          file: "events/_index.html"
+          external: false
 
 
 
