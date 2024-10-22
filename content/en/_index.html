@@ -53,13 +53,15 @@ header_cta:
   target: "https://mids.cids.osuny.site/"
   external: true
 contents_reading_time:
-  seconds: 31
+  seconds: 34
   text: >-
     1 minute
 contents:
   - kind: block
     template: image
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -82,10 +84,12 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Who we are
+      
+    slug: >-
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
+      children: 2
     data:
       page:
         path: "/en/about/who-we-are/"
@@ -112,15 +116,23 @@ contents:
           external: false
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       The CIDS pillars
-    slug: "the-cids-pillars"
-    position: 1
-    rank: 2
+    slug: >-
+      the-cids-pillars
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -144,6 +156,8 @@ contents:
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -174,6 +188,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -196,17 +212,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Latest news from the CIDS
-    slug: "latest-news-from-the-cids"
-    position: 2
-    rank: 2
+    slug: >-
+      latest-news-from-the-cids
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
       News
+    slug: >-
+      news
     ranks:
       self: 3
       children: 4
@@ -233,6 +256,8 @@ contents:
     template: agenda
     title: >-
       Upcoming events
+    slug: >-
+      upcoming-events
     ranks:
       self: 3
     data:
@@ -260,6 +285,8 @@ contents:
     template: agenda
     title: >-
       Recent events
+    slug: >-
+      recent-events
     ranks:
       self: 3
       children: 4
@@ -294,6 +321,8 @@ contents:
     template: call_to_action
     title: >-
       Sign up to our mailing list
+    slug: >-
+      sign-up-to-our-mailing-list
     ranks:
       self: 3
     data:
@@ -319,16 +348,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       CIDS Team
-    slug: "cids-team"
-    position: 3
-    rank: 2
+    slug: >-
+      cids-team
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: persons
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -358,7 +394,6 @@ contents:
         - slug: "lorenzo-palestini"
           role: >-
             
-
 
 
 

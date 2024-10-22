@@ -54,20 +54,28 @@ header_cta:
   target: "https://mids.cids.osuny.site/en/"
   external: true
 contents_reading_time:
-  seconds: 222
+  seconds: 238
   text: >-
     4 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Section Title
-    slug: "section-title"
-    position: 1
-    rank: 2
+    slug: >-
+      section-title
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
       Bloc Pages - Grid
+    slug: >-
+      bloc-pages-grid
     ranks:
       self: 3
       children: 4
@@ -97,6 +105,8 @@ contents:
     template: pages
     title: >-
       Bloc Pages - List
+    slug: >-
+      bloc-pages-list
     ranks:
       self: 3
       children: 4
@@ -126,6 +136,8 @@ contents:
     template: pages
     title: >-
       Bloc Pages - Cards
+    slug: >-
+      bloc-pages-cards
     ranks:
       self: 3
       children: 4
@@ -155,6 +167,8 @@ contents:
     template: pages
     title: >-
       Bloc Pages - Alternate
+    slug: >-
+      bloc-pages-alternate
     ranks:
       self: 3
       children: 4
@@ -184,6 +198,8 @@ contents:
     template: pages
     title: >-
       Bloc Pages - Large
+    slug: >-
+      bloc-pages-large
     ranks:
       self: 3
       children: 4
@@ -213,6 +229,8 @@ contents:
     template: pages
     title: >-
       Bloc Pages - List (no image) + Text
+    slug: >-
+      bloc-pages-list-no-image-text
     ranks:
       self: 3
       children: 4
@@ -246,6 +264,8 @@ contents:
     template: pages
     title: >-
       Bloc Pages - Grid + Text
+    slug: >-
+      bloc-pages-grid-text
     ranks:
       self: 3
       children: 4
@@ -279,6 +299,8 @@ contents:
     template: features
     title: >-
       Bloc Features
+    slug: >-
+      bloc-features
     ranks:
       self: 3
       children: 4
@@ -332,6 +354,8 @@ contents:
     template: features
     title: >-
       Bloc Features + images
+    slug: >-
+      bloc-features-images
     ranks:
       self: 3
       children: 4
@@ -394,6 +418,8 @@ contents:
     template: links
     title: >-
       Bloc Links
+    slug: >-
+      bloc-links
     ranks:
       self: 3
     data:
@@ -491,6 +517,8 @@ contents:
     template: call_to_action
     title: >-
       Bloc Call to Action
+    slug: >-
+      bloc-call-to-action
     ranks:
       self: 3
     data:
@@ -528,6 +556,8 @@ contents:
     template: chapter
     title: >-
       Bloc Chapter - Simple
+    slug: >-
+      bloc-chapter-simple
     ranks:
       self: 3
     data:
@@ -554,6 +584,8 @@ contents:
     template: chapter
     title: >-
       Bloc Chapter - Subtle Highlight (no image)
+    slug: >-
+      bloc-chapter-subtle-highlight-no-image
     ranks:
       self: 3
     data:
@@ -577,6 +609,8 @@ contents:
     template: chapter
     title: >-
       Bloc Chapter - Strong Highlight
+    slug: >-
+      bloc-chapter-strong-highlight
     ranks:
       self: 3
     data:
@@ -603,6 +637,8 @@ contents:
     template: links
     title: >-
       Bloc Links (with images)
+    slug: >-
+      bloc-links-with-images
     ranks:
       self: 3
     data:
@@ -702,7 +738,6 @@ contents:
             https://mids.cids.osuny.site/en/about/contact-us/
 
           external: true
-
 
 
 
