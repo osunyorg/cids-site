@@ -1,6 +1,10 @@
 ---
 title: Top menu
 items:
+- title: Education
+  target: "/fr/education/"
+  kind: page
+  children: []
 - title: CIDS
   target: "/fr/"
   kind: page
