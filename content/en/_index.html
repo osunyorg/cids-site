@@ -125,37 +125,6 @@ contents:
 
 
   - kind: block
-    template: pages
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      self: false
-      children: 2
-    data:
-      options:
-        image: true
-        main_summary: false
-        summary: true
-
-      layout: cards
-      pages:
-        - path: "/education/"
-          slug: "education"
-          file: "pages/education/_index.html"
-          external: false
-        - path: "/research/"
-          slug: "research"
-          file: "pages/research/_index.html"
-          external: false
-        - path: "/events/"
-          slug: "events"
-          file: "events/_index.html"
-          external: false
-
-
-  - kind: block
     template: title
     title: >-
       Latest news from the CIDS
@@ -273,6 +242,37 @@ contents:
       self: 2
     data:
       layout: classic
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      options:
+        image: true
+        main_summary: false
+        summary: true
+
+      layout: cards
+      pages:
+        - path: "/education/"
+          slug: "education"
+          file: "pages/education/_index.html"
+          external: false
+        - path: "/research/"
+          slug: "research"
+          file: "pages/research/_index.html"
+          external: false
+        - path: "/events/"
+          slug: "events"
+          file: "events/_index.html"
+          external: false
 
 
   - kind: block
