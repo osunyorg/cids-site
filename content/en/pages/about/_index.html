@@ -85,14 +85,23 @@ contents:
       
     ranks:
       self: false
+      children: 3
     data:
       options:
         image: true
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: large
       pages:
+        - path: "/about/who-we-are/"
+          slug: "who-we-are"
+          file: "pages/about/who-we-are/_index.html"
+          external: false
+        - path: "/about/people/"
+          slug: "people"
+          file: "pages/about/people/_index.html"
+          external: false
 
 
 
