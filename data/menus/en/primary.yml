@@ -10,55 +10,55 @@ items:
     kind: url
     children: []
   - title: Executive course training
-    target: "/en/education/executive-courses/"
+    target: "/education/executive-courses/"
     kind: page
     children: []
   - title: LAIAC - Latin American International Arbitration Course
-    target: "/en/education/laiac-latin-american-international-arbitration-course/"
+    target: "/education/laiac-latin-american-international-arbitration-course/"
     kind: page
     children: []
 - title: Research
-  target: "/en/research/"
+  target: "/research/"
   kind: page
   children:
   - title: Research overview
-    target: "/en/research/research-overview/"
+    target: "/research/research-overview/"
     kind: page
     children: []
   - title: Research Projects
-    target: "/en/research/projects/"
+    target: "/research/projects/"
     kind: page
     children: []
   - title: Academic publications
-    target: "/en/research/academic-publications/"
+    target: "/research/academic-publications/"
     kind: page
     children: []
 - title: Events
-  target: "/en/events/"
+  target: "/events/"
   kind: page
   children: []
 - title: About
-  target: "/en/about/"
+  target: "/about/"
   kind: page
   children:
   - title: Who we are
-    target: "/en/about/who-we-are/"
+    target: "/about/who-we-are/"
     kind: page
     children: []
   - title: Contact us
-    target: "/en/about/contact-us/"
+    target: "/about/contact-us/"
     kind: page
     children: []
   - title: Partner with us
-    target: "/en/about/partner-with-us/"
+    target: "/about/partner-with-us/"
     kind: page
     children: []
   - title: People
-    target: "/en/about/people/"
+    target: "/about/people/"
     kind: page
     children: []
   - title: News
-    target: "/en/about/news/"
+    target: "/about/news/"
     kind: page
     children: []
 
