@@ -2,7 +2,7 @@
 title: Upper menu
 items:
 - title: CIDS
-  target: https://site.cids.osuny.site/
+  target: https://site.cids.osuny.site
   kind: url
   children: []
 
