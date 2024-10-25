@@ -1,4 +1,8 @@
 ---
 title: Social
-items: []
+items:
+- title: Contact
+  target: mailto:info@cids.ch
+  kind: url
+  children: []
 
