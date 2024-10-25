@@ -2,79 +2,79 @@
 title: Menu principal
 items:
 - title: Education
-  target: "/fr/education/"
+  target: "/education/"
   kind: page
   children:
   - title: LAIAC - Latin American International Arbitration Course
-    target: "/fr/education/laiac-latin-american-international-arbitration-course/"
+    target: "/education/laiac-latin-american-international-arbitration-course/"
     kind: page
     children: []
   - title: Executive courses
-    target: "/fr/education/executive-courses/"
+    target: "/education/executive-courses/"
     kind: page
     children: []
 - title: Research
-  target: "/fr/research/"
+  target: "/research/"
   kind: page
   children:
   - title: Research overview
-    target: "/fr/research/research-overview/"
+    target: "/research/research-overview/"
     kind: page
     children: []
   - title: Projets
-    target: "/fr/research/projets/"
+    target: "/research/projets/"
     kind: page
     children: []
   - title: Academic publications
-    target: "/fr/research/academic-publications/"
+    target: "/research/academic-publications/"
     kind: page
     children: []
 - title: About
-  target: "/fr/about/"
+  target: "/about/"
   kind: page
   children:
   - title: Actualités
-    target: "/fr/about/actualites/"
+    target: "/about/actualites/"
     kind: page
     children: []
   - title: Who we are
-    target: "/fr/about/who-we-are/"
+    target: "/about/who-we-are/"
     kind: page
     children: []
   - title: Contact Us
-    target: "/fr/about/contact-us/"
+    target: "/about/contact-us/"
     kind: page
     children: []
   - title: Partner with us
-    target: "/fr/about/partner-with-us/"
+    target: "/about/partner-with-us/"
     kind: page
     children: []
   - title: People
-    target: "/fr/about/people/"
+    target: "/about/people/"
     kind: page
     children: []
 - title: Agenda
-  target: "/fr/agenda/"
+  target: "/agenda/"
   kind: page
   children: []
 - title: Équipe
-  target: "/fr/equipe/"
+  target: "/equipe/"
   kind: page
   children: []
 - title: Organisations
-  target: "/fr/organisations/"
+  target: "/organisations/"
   kind: page
   children: []
 - title: Diplômes
-  target: "/fr/diplomes/"
+  target: "/diplomes/"
   kind: page
   children: []
 - title: Formations
-  target: "/fr/formations/"
+  target: "/formations/"
   kind: page
   children: []
 - title: Campus
-  target: "/fr/campus/"
+  target: "/campus/"
   kind: page
   children: []
 
