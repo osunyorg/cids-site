@@ -8,6 +8,10 @@ en:
   languageName: English
   params:
     social:
+      linkedin: >-
+        https://www.linkedin.com/school/master-in-international-dispute-settlement-mids-/
+      facebook: >-
+        https://www.facebook.com/midsllm/
   permalinks:
     events: /events/:year-:month-:day-:slug/
     events_categories: /events/:slug/
