@@ -1,4 +1,8 @@
 ---
 title: Top menu
-items: []
+items:
+- title: CIDS
+  target: "/en/"
+  kind: page
+  children: []
 
