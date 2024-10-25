@@ -5,4 +5,8 @@ items:
   target: https://site.cids.osuny.site
   kind: url
   children: []
+- title: MIDS
+  target: https://mids.ch
+  kind: url
+  children: []
 
