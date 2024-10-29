@@ -23,6 +23,8 @@ en:
     posts_categories: /about/news/:slug/
     diplomas: /diplomas/:slug/
     programs: /programs/:slug/
+    organizations: /organizations/:slug/
+    organizations_categories: /organizations/categories/:slug/
     persons: /team/:slug/
     persons_categories: /team/categories/:slug/
     authors: /team/:slug/news/
