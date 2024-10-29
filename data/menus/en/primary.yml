@@ -21,10 +21,6 @@ items:
   target: "/research/"
   kind: page
   children:
-  - title: Research overview
-    target: "/research/research-overview/"
-    kind: page
-    children: []
   - title: Research Projects
     target: "/research/projects/"
     kind: page
