@@ -6,7 +6,7 @@ items:
   kind: blank
   children:
   - title: MIDS
-    target: https://mids.cids.osuny.site
+    target: https://mids.ch
     kind: url
     children: []
   - title: Executive course training
