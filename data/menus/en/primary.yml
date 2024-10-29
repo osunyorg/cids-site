@@ -49,10 +49,6 @@ items:
     target: "/about/contact-us/"
     kind: page
     children: []
-  - title: Partner with us
-    target: "/about/partner-with-us/"
-    kind: page
-    children: []
   - title: People
     target: "/about/people/"
     kind: page
