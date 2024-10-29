@@ -2,8 +2,8 @@
 title: Main menu
 items:
 - title: Education
-  target: ''
-  kind: blank
+  target: "/education/"
+  kind: page
   children:
   - title: MIDS
     target: https://mids.ch
