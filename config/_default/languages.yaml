@@ -15,8 +15,8 @@ en:
       facebook: >-
         https://www.facebook.com/midsllm/
   permalinks:
-    events: /news-and-events/:year-:month-:day-:slug/
-    events_categories: /news-and-events/:slug/
+    events: /events-and-news/:year-:month-:day-:slug/
+    events_categories: /events-and-news/:slug/
     projects: /research/projects/:year-:slug/
     projects_categories: /research/projects/:slug/
     posts: /about/news/:year-:month-:day-:slug/
