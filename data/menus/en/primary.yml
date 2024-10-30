@@ -41,12 +41,12 @@ items:
     target: "/about/who-we-are/"
     kind: page
     children: []
-  - title: Contact Us
-    target: "/about/contact-us/"
-    kind: page
-    children: []
   - title: People
     target: "/about/people/"
+    kind: page
+    children: []
+  - title: Contact Us
+    target: "/about/contact-us/"
     kind: page
     children: []
 
