@@ -29,8 +29,8 @@ items:
     target: "/research/academic-publications/"
     kind: page
     children: []
-- title: News & Events
-  target: "/news-and-events/"
+- title: Events & News
+  target: "/events-and-news/"
   kind: page
   children: []
 - title: About
