@@ -22,7 +22,7 @@ items:
   kind: page
   children:
   - title: Research Projects
-    target: "/research/projects/"
+    target: "/research/research-projects/"
     kind: page
     children: []
   - title: Academic Publications
@@ -38,7 +38,7 @@ items:
   kind: page
   children:
   - title: About the CIDS
-    target: "/about/who-we-are/"
+    target: "/about/about-the-cids/"
     kind: page
     children: []
   - title: People
