@@ -41,7 +41,7 @@ items:
     target: "/about/who-we-are/"
     kind: page
     children: []
-  - title: Contact us
+  - title: Contact Us
     target: "/about/contact-us/"
     kind: page
     children: []
