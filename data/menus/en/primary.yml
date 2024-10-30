@@ -49,8 +49,4 @@ items:
     target: "/about/people/"
     kind: page
     children: []
-  - title: News
-    target: "/about/news/"
-    kind: page
-    children: []
 
