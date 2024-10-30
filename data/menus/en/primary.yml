@@ -37,7 +37,7 @@ items:
   target: "/about/"
   kind: page
   children:
-  - title: Who we are
+  - title: About the CIDS
     target: "/about/who-we-are/"
     kind: page
     children: []
