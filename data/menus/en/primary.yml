@@ -14,7 +14,7 @@ items:
     kind: page
     children: []
   - title: LAIAC - Latin American International Arbitration Course
-    target: "/education/laiac-latin-american-international-arbitration-course/"
+    target: "/education/laiac/"
     kind: page
     children: []
 - title: Research
