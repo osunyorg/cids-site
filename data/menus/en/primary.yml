@@ -9,7 +9,7 @@ items:
     target: https://mids.ch
     kind: url
     children: []
-  - title: Executive course training
+  - title: Executive Courses
     target: "/education/executive-courses/"
     kind: page
     children: []
