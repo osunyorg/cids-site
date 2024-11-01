@@ -31,3 +31,5 @@
 
   RewriteRule ^mids$ https://mids.ch [R=301,L]
 </IfModule>
+
+ErrorDocument 404 /404.html
