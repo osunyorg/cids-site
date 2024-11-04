@@ -8,5 +8,28 @@ country: "Switzerland"
 phone: ""
 url: ""
 contact_details:
+  postal_address:
+    data:
+      address: >-
+        Rue de Lausanne 120B
+      address_additional: >-
+        
+      zipcode: >-
+        1202
+      city: >-
+        Geneva
+      country: >-
+        name: >-
+          Switzerland
+        alpha2: >-
+          CH
+        alpha3: >-
+          CHE
+      country: >-
+        Switzerland
+    text: >-
+      Rue de Lausanne 120B 1202 Geneva SWITZERLAND
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Rue de Lausanne 120B</span> <span itemprop="postalCode">1202</span> <span itemprop="addressLocality">Geneva</span> <span itemprop="addressCountry">SWITZERLAND</span></address>
 roles: []
 ---
