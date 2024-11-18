@@ -24,6 +24,9 @@ ExpiresByType application/x-font-woff2  "access plus 1 year"
 RewriteEngine On
 
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
 RewriteCond %{HTTP_HOST} ^www\.cids\.ch [NC]
 RewriteRule ^(.*)$ https://cids.ch/$1 [L,R=301]
 
