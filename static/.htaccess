@@ -26,6 +26,7 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteCond %{HTTP_HOST} ^www\.cids\.ch [NC]
   RewriteRule ^(.*)$ https://cids.ch/$1 [L,R=301]
 
