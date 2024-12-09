@@ -7,13 +7,25 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
-      email: >-
-        info@cids.ch
-      linkedin: >-
-        https://www.linkedin.com/school/master-in-international-dispute-settlement-mids-/
-      facebook: >-
-        https://www.facebook.com/midsllm/
+    contact_details:
+      emails:
+        email:
+          label: >-
+            info@cids.ch
+          value: >-
+            mailto:info@cids.ch
+      social_networks:
+        facebook:
+          label: >-
+            midsllm
+          value: >-
+            https://www.facebook.com/midsllm
+        linkedin:
+          label: >-
+            linkedin.comschoolmaster-in-international-dispute-settlement-mids-
+          value: >-
+            https://www.linkedin.com/school/master-in-international-dispute-settlement-mids-/
+
   permalinks:
     events: /events-and-news/:year-:month-:day-:slug/
     events_categories: /events-and-news/:slug/
