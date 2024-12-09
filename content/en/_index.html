@@ -4,6 +4,7 @@ breadcrumb_title: >-
 title: >-
   Geneva Center for International Dispute Settlement
 url: "/"
+slug: ""
 aliases:
   - /en/
 date: 2023-12-07T15:14:23+01:00
@@ -11,8 +12,8 @@ lastmod: 2024-10-31T13:09:02+01:00
 meta:
   hugo:
     permalink: "/"
+    path: "/"
     file: "content/en/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2023-12-07T15:14:23+01:00
@@ -81,9 +82,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/about/about-the-cids/"
+        permalink: "/about/about-the-cids/"
+        path: "/pages/about/about-the-cids"
         slug: "about-the-cids"
-        file: "pages/about/about-the-cids/_index.html"
+        file: "content/en/pages/about/about-the-cids/_index.html"
       options:
         image: false
         main_summary: true
@@ -91,14 +93,15 @@ contents:
 
       layout: list
       pages:
-        - path: "/about/people/"
+        - permalink: "/about/people/"
+          path: "/pages/about/people"
           slug: "people"
-          file: "pages/about/people/_index.html"
-          external: false
-        - path: "/about/contact-us/"
+          file: "content/en/pages/about/people/_index.html"
+        - permalink: "/about/contact-us/"
+          path: "/pages/about/contact-us"
           slug: "contact-us"
-          file: "pages/about/contact-us/_index.html"
-          external: false
+          file: "content/en/pages/about/contact-us/_index.html"
+
 
 
   - kind: block
@@ -156,18 +159,19 @@ contents:
 
       layout: large
       pages:
-        - path: "/education/"
+        - permalink: "/education/"
+          path: "/pages/education"
           slug: "education"
-          file: "pages/education/_index.html"
-          external: false
-        - path: "/research/"
+          file: "content/en/pages/education/_index.html"
+        - permalink: "/research/"
+          path: "/pages/research"
           slug: "research"
-          file: "pages/research/_index.html"
-          external: false
-        - path: "/events-and-news/"
+          file: "content/en/pages/research/_index.html"
+        - permalink: "/events-and-news/"
+          path: "/events"
           slug: "events-and-news"
-          file: "events/_index.html"
-          external: false
+          file: "content/en/events/_index.html"
+
 
 
   - kind: block
@@ -193,9 +197,19 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-10-31-mids-2025-2026-applications-open"
-        - "2024/2024-09-25-mids-alumni-scholarship-fund"
-        - "2024/2024-07-16-annual-report-2023"
+        - permalink: "/about/news/2024-10-31-mids-2025-2026-applications-open/"
+          path: "/posts/2024/2024-10-31-mids-2025-2026-applications-open"
+          slug: "mids-2025-2026-applications-open"
+          file: "content/en/posts/2024/2024-10-31-mids-2025-2026-applications-open.html"
+        - permalink: "/about/news/2024-09-25-mids-alumni-scholarship-fund/"
+          path: "/posts/2024/2024-09-25-mids-alumni-scholarship-fund"
+          slug: "mids-alumni-scholarship-fund"
+          file: "content/en/posts/2024/2024-09-25-mids-alumni-scholarship-fund.html"
+        - permalink: "/about/news/2024-07-16-annual-report-2023/"
+          path: "/posts/2024/2024-07-16-annual-report-2023"
+          slug: "annual-report-2023"
+          file: "content/en/posts/2024/2024-07-16-annual-report-2023.html"
+
 
 
   - kind: block
@@ -227,6 +241,7 @@ contents:
       events:
 
 
+
   - kind: block
     template: agenda
     title: >-
@@ -255,12 +270,19 @@ contents:
 
       title_link: "/events-and-news/archives/"
       events:
-        - path: "/events-and-news/2024-11-15-4th-mids-alumni-association-maa-annual-conference/"
-          file: "events/archives/2024/2024-11-15-4th-mids-alumni-association-maa-annual-conference.html"
-        - path: "/events-and-news/2024-06-12-seminar/"
-          file: "events/archives/2024/2024-06-12-seminar.html"
-        - path: "/events-and-news/2024-03-19-practical-skills-for-arbitration-practitioners-in-a-technology-and-ai-driven-future/"
-          file: "events/archives/2024/2024-03-19-practical-skills-for-arbitration-practitioners-in-a-technology-and-ai-driven-future.html"
+        - permalink: "/events-and-news/2024-11-15-4th-mids-alumni-association-maa-annual-conference/"
+          path: "/events/archives/2024/2024-11-15-4th-mids-alumni-association-maa-annual-conference"
+          slug: "4th-mids-alumni-association-maa-annual-conference"
+          file: "content/en/events/archives/2024/2024-11-15-4th-mids-alumni-association-maa-annual-conference.html"
+        - permalink: "/events-and-news/2024-06-12-seminar/"
+          path: "/events/archives/2024/2024-06-12-seminar"
+          slug: "seminar"
+          file: "content/en/events/archives/2024/2024-06-12-seminar.html"
+        - permalink: "/events-and-news/2024-03-19-practical-skills-for-arbitration-practitioners-in-a-technology-and-ai-driven-future/"
+          path: "/events/archives/2024/2024-03-19-practical-skills-for-arbitration-practitioners-in-a-technology-and-ai-driven-future"
+          slug: "practical-skills-for-arbitration-practitioners-in-a-technology-and-ai-driven-future"
+          file: "content/en/events/archives/2024/2024-03-19-practical-skills-for-arbitration-practitioners-in-a-technology-and-ai-driven-future.html"
+
 
 
   - kind: block
