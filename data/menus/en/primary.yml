@@ -4,20 +4,24 @@ items:
 - title: Education
   target: "/education/"
   kind: page
+  new_tab: false
   children:
   - title: MIDS
     target: https://mids.ch
     kind: url
+    new_tab: true
     children: []
   - title: Executive Courses
     target: "/education/executive-courses/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/education/executive-courses"
     file: content/en/pages/education/executive-courses/_index.html
   - title: LAIAC - Latin American International Arbitration Course
     target: "/education/laiac/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/education/laiac"
     file: content/en/pages/education/laiac/_index.html
@@ -26,16 +30,19 @@ items:
 - title: Research
   target: "/research/"
   kind: page
+  new_tab: false
   children:
   - title: Research Projects
     target: "/research/research-projects/"
     kind: page
+    new_tab: false
     children: []
     path: "/projects"
     file: content/en/projects/_index.html
   - title: Academic Publications
     target: "/research/academic-publications/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/research/academic-publications"
     file: content/en/pages/research/academic-publications/_index.html
@@ -44,28 +51,33 @@ items:
 - title: Events & News
   target: "/events-and-news/"
   kind: page
+  new_tab: false
   children: []
   path: "/events"
   file: content/en/events/_index.html
 - title: About
   target: "/about/"
   kind: page
+  new_tab: false
   children:
   - title: About the CIDS
     target: "/about/about-the-cids/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/about/about-the-cids"
     file: content/en/pages/about/about-the-cids/_index.html
   - title: People
     target: "/about/people/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/about/people"
     file: content/en/pages/about/people/_index.html
   - title: Contact Us
     target: "/about/contact-us/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/about/contact-us"
     file: content/en/pages/about/contact-us/_index.html

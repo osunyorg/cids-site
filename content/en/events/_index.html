@@ -77,7 +77,9 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 2
+    top:
+      active: false
     data:
       layout: no_background
       text: >-
@@ -102,7 +104,14 @@ contents:
     slug: >-
       cids-mids-events
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          CIDS &amp; MIDS Events
+        heading: 2
     data:
       layout: classic
 
@@ -114,7 +123,15 @@ contents:
     slug: >-
       upcoming-events
     ranks:
+      base: 3
       self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Upcoming events
+        heading: 3
+        link: "/events-and-news/"
     data:
       mode: all
       options:
@@ -144,8 +161,16 @@ contents:
     slug: >-
       recent-events
     ranks:
+      base: 3
       self: 3
       children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Recent events
+        heading: 3
+        link: "/events-and-news/archives/"
     data:
       mode: all
       options:
@@ -187,7 +212,16 @@ contents:
     slug: >-
       sign-up-to-our-mailing-list
     ranks:
+      base: 3
       self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Sign up to our mailing list
+        heading: 3
+      description: >-
+        <p>Stay informed of our upcoming events by signing up to our mailing list.</p>
     data:
       layout: accent_background
       text: >-
@@ -217,7 +251,14 @@ contents:
     slug: >-
       news
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          News
+        heading: 2
     data:
       layout: classic
 
@@ -229,8 +270,10 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
       children: 3
+    top:
+      active: false
     data:
       mode: all
       all: true
