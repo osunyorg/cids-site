@@ -4,3 +4,5 @@ enableRobotsTXT: true
 removePathAccents: true
 params:
   plausible: cids.ch
+  debug:
+    productionUrl: https://cids.ch
