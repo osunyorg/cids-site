@@ -29,6 +29,7 @@ en:
   permalinks:
     events: /events-and-news/:year-:month-:day-:slug/
     events_categories: /events-and-news/:slug/
+    pages_categories: /:slug/
     projects: /research/research-projects/:year-:slug/
     projects_categories: /research/research-projects/:slug/
     posts: /about/news/:year-:month-:day-:slug/
@@ -47,6 +48,7 @@ en:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
