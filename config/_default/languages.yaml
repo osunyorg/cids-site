@@ -35,6 +35,7 @@ en:
     posts: /about/news/:year-:month-:day-:slug/
     posts_categories: /about/news/:slug/
     diplomas: /diplomas/:slug/
+    programs_categories: /programs/categories/:slug/
     programs: /programs/:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
@@ -51,6 +52,7 @@ en:
     pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
+    programs_category: programs_categories
     projects_category: projects_categories
     researcher: researchers
     teacher: teachers
