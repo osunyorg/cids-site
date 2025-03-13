@@ -1,7 +1,9 @@
 theme: cids-theme
-paginate: 18
+pagination:
+  pagerSize: 18
 enableRobotsTXT: true
 removePathAccents: true
+ignoreLogs: ['warning-goldmark-raw-html']
 params:
   plausible: cids.ch
   debug:
