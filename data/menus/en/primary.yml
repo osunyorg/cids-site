@@ -2,85 +2,117 @@
 title: Main menu
 items:
 - title: Education
+  slug: education
   target: "/education/"
   kind: page
   new_tab: false
   children:
   - title: MIDS
+    slug: mids
     target: https://mids.ch
     kind: url
     new_tab: true
     children: []
+    descendants_targets: []
   - title: Executive Courses
+    slug: executive-courses
     target: "/education/executive-courses/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/education/executive-courses"
     file: content/en/pages/education/executive-courses/_index.html
   - title: LAIAC - Latin American International Arbitration Course
+    slug: laiac-latin-american-international-arbitration-course
     target: "/education/laiac/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/education/laiac"
     file: content/en/pages/education/laiac/_index.html
+  descendants_targets:
+  - "/education/executive-courses/"
+  - "/education/laiac/"
+  - https://mids.ch
   path: "/pages/education"
   file: content/en/pages/education/_index.html
 - title: Research
+  slug: research
   target: "/research/"
   kind: page
   new_tab: false
   children:
   - title: Research Projects
+    slug: research-projects
     target: "/research/research-projects/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/projects"
     file: content/en/projects/_index.html
   - title: Academic Publications
+    slug: academic-publications
     target: "/research/academic-publications/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/research/academic-publications"
     file: content/en/pages/research/academic-publications/_index.html
+  descendants_targets:
+  - "/research/academic-publications/"
+  - "/research/research-projects/"
   path: "/pages/research"
   file: content/en/pages/research/_index.html
 - title: Events & News
+  slug: events-news
   target: "/events-and-news/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/en/events/_index.html
 - title: About
+  slug: about
   target: "/about/"
   kind: page
   new_tab: false
   children:
   - title: About the CIDS
+    slug: about-the-cids
     target: "/about/about-the-cids/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/about/about-the-cids"
     file: content/en/pages/about/about-the-cids/_index.html
   - title: People
+    slug: people
     target: "/about/people/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/about/people"
     file: content/en/pages/about/people/_index.html
   - title: Contact Us
+    slug: contact-us
     target: "/about/contact-us/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/about/contact-us"
     file: content/en/pages/about/contact-us/_index.html
+  descendants_targets:
+  - "/about/about-the-cids/"
+  - "/about/contact-us/"
+  - "/about/people/"
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 

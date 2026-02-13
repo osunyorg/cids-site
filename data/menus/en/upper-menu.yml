@@ -2,13 +2,17 @@
 title: Upper menu
 items:
 - title: CIDS
+  slug: cids
   target: "/"
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 - title: MIDS
+  slug: mids
   target: https://mids.ch
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
