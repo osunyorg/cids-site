@@ -7,6 +7,11 @@ osuny:
   website:
     id: 1f9c62e8-5cd7-4a3c-b0d9-29c83c9526ef
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "cids.ch"
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
