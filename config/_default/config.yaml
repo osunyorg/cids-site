@@ -8,3 +8,11 @@ params:
   plausible: cids.ch
   debug:
     productionUrl: https://cids.ch
+  projects:
+    single:
+      meta:
+        position: hero
+        options:
+          reading_time: false
+          share: false
+          with_labels: false
